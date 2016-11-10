@@ -1,3 +1,19 @@
+build:
+  - 'clean'
+  - 'test'
+  - 'copy:build'
+  - 'sass:build'
+  - 'pug:build'
+
 test:
   - 'jshint:all'
   - 'jscs:all'
+  - 'sass:test'
+
+serve:
+  - 'build'
+  - 'connect:build'
+  - 'watch'
+
+default:
+  - 'serve'

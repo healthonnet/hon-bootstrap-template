@@ -1,21 +1,27 @@
 {
-  "name": "hon-http-urlchecker",
+  "name": "hon-bootstrap-template",
   "private": true,
   "version": "0.0.1",
-  "description": "HON Bootstrap Template",
+  "description": "Bootstrap Template for HON small project",
   "keywords": [
     "bootstrap",
     "template"
   ],
   "author": "William Belle <william.belle@gmail.com>",
   "license": "Apache 2.0",
-  "repository": "https://github.com/healthonnet/hon-http-urlchecker.git",
+  "repository": "https://github.com/healthonnet/hon-bootstrap-template.git",
   "scripts": {
     "test": "grunt test"
   },
   "devDependencies": {
     "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-pug": "^1.0.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
     "grunt-jscs": "^3.0.1",
     "load-grunt-config": "^0.19.2"
   }
