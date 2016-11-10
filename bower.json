@@ -1,0 +1,23 @@
+{
+  "name": "hon-bootstrap-template",
+  "version": "0.0.1",
+  "description": "Bootstrap Template for HON small project",
+  "keywords": [
+    "Bootstrap",
+    "Template",
+    "HON",
+    "Health On the Net"
+  ],
+  "authors": [
+    "William Belle <william.belle@gmail.com>"
+  ],
+  "license": "Apache 2.0",
+  "ignore": [
+    ".*",
+    "*.json"
+  ],
+  "devDependencies": {
+    "bootstrap": "~3.3.7",
+    "responsive-sticky-footer-plugin": "^0.0.1"
+  }
+}
