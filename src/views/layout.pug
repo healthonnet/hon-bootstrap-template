@@ -1,0 +1,19 @@
+doctype html
+html(lang="en" dir="ltr")
+  head
+    block header
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible",content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    link(rel="icon", type="image/png", href="images/favicon.png")
+    link(rel="stylesheet", href="css/bootstrap.min.css")
+    link(rel="stylesheet", href="css/hon-bootstrap-template.css")
+  body
+    include partials/navbar
+    block content
+    include partials/footer
+
+    script(src="js/jquery.min.js")
+    script(src="js/bootstrap.min.js")
+    script(src="js/jquery.responsiveStickyFooter.min.js")
+    script(src="js/hon-bootstrap-template.js")

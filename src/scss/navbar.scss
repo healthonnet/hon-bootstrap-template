@@ -1,0 +1,29 @@
+.navbar-default {
+  background-image: linear-gradient(to bottom, $zircon 0, $zircon 100%);
+
+  .navbar-brand {
+    color: $mine-shaft;
+    padding: 10px 10px;
+  }
+
+  .navbar-toggle {
+    border: none;
+
+    .icon-bar {
+      background-color: $mine-shaft;
+    }
+  }
+
+  .navbar-toggle:hover {
+    border: none;
+    background-color: $pattens-blue;
+  }
+
+  .navbar-nav>li>a {
+    color: $mine-shaft;
+  }
+
+  .nav>li:hover {
+    background-color: $pattens-blue;
+  }
+}
