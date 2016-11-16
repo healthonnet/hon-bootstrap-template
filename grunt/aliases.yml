@@ -11,7 +11,9 @@ test:
   - 'sass:test'
 
 release:
+  - 'sass:build'
   - 'sass:release'
+  - 'copy:release'
   - 'uglify'
 
 serve:

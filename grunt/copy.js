@@ -39,4 +39,13 @@ module.exports = {
       nonull: true,
     },],
   },
+  release: {
+    files: [{
+      expand: true,
+      cwd: 'src/',
+      src: ['js/**'],
+      dest: 'dist/',
+      nonull: true,
+    },],
+  },
 };

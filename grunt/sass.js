@@ -10,16 +10,19 @@ module.exports = {
   build: {
     options: {
       sourcemap: 'none',
+      style: 'expanded',
     },
-    files: {
+    files: [{
       'www/css/hon-bootstrap-template.css':
         'src/scss/hon-bootstrap-template.scss',
-    },
+    },{
+      'dist/css/hon-bootstrap-template.css':
+        'src/scss/hon-bootstrap-template.scss',
+    },],
   },
   release: {
     options: {
       style: 'compressed',
-      sourcemap: 'none',
     },
     files: {
       'dist/css/hon-bootstrap-template.min.css':
