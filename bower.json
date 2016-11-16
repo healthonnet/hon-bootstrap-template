@@ -14,9 +14,12 @@
   "license": "Apache 2.0",
   "ignore": [
     ".*",
-    "*.json"
+    "*.json",
+    "gruntfile.js",
+    "src/**",
+    "grunt/**"
   ],
-  "devDependencies": {
+  "dependencies": {
     "bootstrap": "~3.3.7",
     "responsive-sticky-footer-plugin": "^0.0.1"
   }
