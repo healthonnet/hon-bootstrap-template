@@ -16,4 +16,14 @@ module.exports = {
         'src/scss/hon-bootstrap-template.scss',
     },
   },
+  release: {
+    options: {
+      style: 'compressed',
+      sourcemap: 'none',
+    },
+    files: {
+      'dist/css/hon-bootstrap-template.min.css':
+        'src/scss/hon-bootstrap-template.scss',
+    },
+  },
 };
