@@ -16,6 +16,11 @@ Install
 $ bower install hon-bootstrap-template
 ```
 
+### Download
+
+Download `hon-bootstrap-template.min.js` and `hon-bootstrap-template.min.css`
+from the  [Github Release pages](https://github.com/healthonnet/hon-bootstrap-template/releases)
+
 Usage
 -----
 
@@ -40,9 +45,10 @@ Usage
 Build
 -----
 
-You need Node.js, then
+You need Node.js and Ruby, then
 
 ```bash
+$ gem install sass
 $ npm install
 $ npm test
 ```
@@ -64,4 +70,4 @@ Apache License 2.0
 [gemnasium-image]: https://gemnasium.com/badges/github.com/healthonnet/hon-bootstrap-template.svg
 [gemnasium-url]: https://gemnasium.com/github.com/healthonnet/hon-bootstrap-template
 [bower-image]: https://img.shields.io/bower/v/hon-bootstrap-template.svg
-[bower-url]: http://bower.io/search/?q=hon-bootstrap-template
+[bower-url]: https://bower.io/search/?q=hon-bootstrap-template
