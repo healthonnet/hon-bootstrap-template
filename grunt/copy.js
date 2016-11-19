@@ -46,6 +46,12 @@ module.exports = {
       src: ['js/**'],
       dest: 'dist/',
       nonull: true,
+    },{
+      expand: true,
+      cwd: 'src/',
+      src: ['images/**'],
+      dest: 'dist/',
+      nonull: true,
     },],
   },
 };
