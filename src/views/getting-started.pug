@@ -11,13 +11,40 @@ block content
     p.lead.text-justify
       |HON-Bootstrap-Template (currently v0.0.1) has a few easy ways to quickly get started, each one appealing to a different skill level and use case. Read through to see what suits your particular needs.
     h2 Source Code
-    p
-      |Source code
+    p.text-justify
+      |Source Scss, JavaScript, and images files, along with our docs. Requires some setup.
     p.text-center
-      a(href="https://github.com/healthonnet/hon-bootstrap-template/releases",class="btn btn-success")
+      a(href="https://github.com/healthonnet/hon-bootstrap-template/archive/v0.01.tar.gz",class="btn btn-success btn-lg")
         |Download source
     h2 Install with Bower
-    p
+    p.text-justify
       |You can also install and manage HON-Boostrap-Template Scss and JavaScript using Bower:
-      pre
-        |$ bower install hon-bootstrap-template
+    pre
+      |$ bower install hon-bootstrap-template
+    div.page-header
+      h1 Basic template
+    p.text-justify.lead
+      |Start with this basic HTML template. We encourage you to customize and adapt the template to suit your individual project's needs.
+    p
+      |Copy the HTML below to begin working with a minimal document.
+    pre
+      |&lt;!DOCTYPE html&gt;
+      |&lt;html lang="en" dir="ltr"&gt;
+      |  &lt;head&gt;
+      |  &lt;meta charset="utf-8"&gt;
+      |  &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+      |  &lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
+      |  &lt;title&gt;HON Bootstrap Template Demo&lt;/title&gt;
+      |  &lt;!-- Bootstrap --&gt;
+      |  &lt;link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css"&gt;
+      |  &lt;!-- HON style --&gt;
+      |  &lt;link rel="stylesheet" href="bower_components/hon-bootstrap-template/dist/css/hon-bootstrap-template.min.css"&gt;
+      |&lt;/head&gt;
+      |&lt;body&gt;
+      |  &lt;h1&gt;Hello, world!&lt;/h1&gt;
+      |  &lt;script src="bower_components/jquery/dist/jquery.min.js"&gt;&lt;/script&gt;
+      |  &lt;script src="bower_components/bootstrap/dist/js/bootstrap.min.js"&gt;&lt;/script&gt;
+      |  &lt;script src="bower_components/responsive-sticky-footer-plugin/dist/jquery.responsiveStickyFooter.min.js"&gt;&lt;/script&gt;
+      |  &lt;script src="bower_components/hon-bootstrap-template/dist/js/hon-bootstrap-template.min.js"&gt;&lt;/script&gt;
+      |&lt;/body&gt;
+      |&lt;/html&gt;
