@@ -21,6 +21,6 @@
   ],
   "dependencies": {
     "bootstrap": "~3.3.7",
-    "responsive-sticky-footer-plugin": "^1.0.0"
+    "responsive-sticky-footer-plugin": "^1.0.2"
   }
 }
