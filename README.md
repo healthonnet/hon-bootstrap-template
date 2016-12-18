@@ -21,6 +21,11 @@ $ bower install hon-bootstrap-template
 Download `hon-bootstrap-template.min.js` and `hon-bootstrap-template.min.css`
 from the  [Github Release pages](https://github.com/healthonnet/hon-bootstrap-template/releases)
 
+Docs
+----
+
+See https://healthonnet.github.io/hon-bootstrap-template/
+
 Usage
 -----
 
