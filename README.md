@@ -54,7 +54,6 @@ You need Node.js and Ruby, then
 
 ```bash
 $ gem install sass
-$ bower install
 $ npm install
 $ npm test
 ```
