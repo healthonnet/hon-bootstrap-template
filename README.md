@@ -58,6 +58,15 @@ $ npm install
 $ npm test
 ```
 
+Run
+---
+
+```bash
+$ grunt
+```
+
+This will start a server on http://localhost:8100
+
 Release
 -------
 
